@@ -48,7 +48,7 @@ include 'includes/header.php' ?>
         </div>
         <section class="contact-form">
             <div class="container contact" data-form-type="contact_form">
-                <form id="prevent" class="signupForm leadForm" method="post" enctype="multipart/form-data">
+                <form id="prevent" class="signupForm leadForm" method="post" enctype="multipart/form-data" action="contact_submit.php">
                     <!--action="functions/send.php"-->
                     <?php
 

@@ -1,0 +1,243 @@
+@media screen and (max-width:1800px){
+    .print_design_pkg:before{right:0%;}
+}
+@media screen and (max-width:1400px){
+    .print_design_pkg{overflow:hidden;}
+    .print_design_pkg:before{right:-18%;}
+}
+@media screen and (max-width:1200px){
+    .testi-box{top:6%}
+    .testi-box p{font-size:16px}
+    .top-banner h1{font-size:58px}
+    .impressive-left h1{font-size:42px}
+    .branding-section,.content-section,.digital-section,.logo-section,.video-section,.website-section{height:420px}
+    .branding-section h1,.content-section h1,.digital-section h1,.logo-section h1,.video-section h1,.website-section h1{margin-top:148px}
+    .branding-section h1{margin-top:172px!important}
+    .lower-banner h1{font-size:36px}
+    .services-box h1{font-size:22px!important}
+    .padding-rt-in-lg{padding-right:0}
+    .arrow-down-green{bottom:-9px}
+    .impressive{}
+    .home-pricing .arrow-down-green{bottom:-68px}
+    .pricing-cta h1{font-size:37px}
+    .reason .arrow-down-green{bottom:-50px}
+    .client .arrow-down-green{bottom:-30px}
+    .inner-border-box svg{font-size:34px}
+    #testimonial-carousel .owl-nav{bottom:-20px}
+    footer .border-box{width:100%}
+    .follow-us{text-align:center!important}
+    .follow-us br{display:none}
+    .lower-banner .arrow-down-green{bottom:-29px}
+}
+@media screen and (max-width:991px){
+    .about-banner{background-image:url(../img/tablet-about-bg.jpg)}
+    .pricing-banner{background-image:url(../img/tablet-pricing-bg.jpg)}
+    .service-banner{background-image:url(../img/tablet-service-bg.jpg)}
+    .portfolio-banner{background-image:url(../img/tablet-portfolio-bg.jpg)}
+    .contact-banner{background-image:url(../img/tablet-contact-bg.jpg)}
+    .website-banner{background-image:url(../img/tablet-website-design-bg.jpg)}
+    .order-banner{background-image:url(../img/tablet-order-bg.jpg)}
+    .logo-banner{background-image:url(../img/tablet-logo-bg.jpg)}
+    .branding-banner{background-image:url(../img/tablet-branding-bg.jpg)}
+    .nft-banner{background-image:url(../img/tablet-nft-bg.jpg)}
+    .video-banner{background-image:url(../img/tablet-animation-bg.jpg)}
+    .seo-banner{background-image:url(../img/tablet-seo-bg.jpg)}
+    .logo-brief-banner{background-image:url(../img/tablet-logo-brief-bg.jpg)}
+    .payment-banner{background-image:url(../img/tablet-payment-bg.jpg)}
+    .mobileapp-banner{background-image:url(../img/tablet-mobileapp-bg.jpg)}
+    .print-banner{background-image:url(../img/tablet-print-bg.jpg)}
+    #testimonial{display:none}
+    #mobile-testimonial{display:block!important}
+    .testi-box{width:45%;position:absolute;top:14%;right:6px}
+    .testi-box p{font-size:15px;line-height:23px}
+    .client{background-size:cover;background-position:center center;padding-bottom:30px}
+    .award-images .col-6:nth-child(10),.award-images .col-6:nth-child(6),.award-images .col-6:nth-child(7),.award-images .col-6:nth-child(8),.award-images .col-6:nth-child(9){border-bottom:1px solid #c4c4c4}
+    .history,.obstacles,.professional,.team{padding-top:60px}
+    .contact-lower,.history,.obstacles,.professional,.team{padding-bottom:60px}
+    .pricing-cta{text-align:center}
+    .border-right-history{border-right:0}
+    .branding-section h1,.content-section h1,.digital-section h1,.logo-section h1,.video-section h1,.website-section h1{font-size:62px;line-height:56px}
+    .lower-banner .arrow-down-green{bottom:-29px}
+    .top-banner h1{font-size:42px}
+    .lower-banner{height:960px}
+    .lower-banner p{margin-bottom:50px}
+    .left-lower-banner{text-align:center}
+    .left-lower-banner svg{top:110px;right:329px}
+    .impressive-left{text-align:center}
+    .impressive{height:425px}
+    .impressive-left p{margin-bottom:46px}
+    .map-container p{width:48%}
+    .home-cta-box{margin-top:28px}
+    #pricing-tab a{font-size:16px}
+    .reason-section img{margin-top:10px}
+    .testi-box h1{font-size:16px}
+    .testi-box h6{font-size:14px}
+    .home-reason svg{top:10px}
+    .pricing-page #pricing-tab a{font-size:14px}
+    .btn-center{text-align:center}
+    .navbar-text li a span{display:none}
+    .navbar-text li a svg{font-size:30px;margin-left:16px}
+    .navbar-text ul{display:inline-flex;flex-direction:row-reverse}
+    .navbar-text{position:absolute;right:70px;top:20px;}
+    .left-navbar ul li{border-left:none;}
+    .navbar-light .navbar-toggler-icon{background-image:url(../img/toggle-bar.png)}
+    .navbarText{position:relative;top:82px}
+    .navbar{height:90px}
+    .navbar-brand{position:absolute;left:0;width:20%!important;}
+    .navbar-toggler{position:absolute;right:0;background-image:-webkit-linear-gradient(bottom,#ff8e01 0,#ffca00 100%);background-image:-o-linear-gradient(bottom,#ff8e01 0,#ffca00 100%);background-image:linear-gradient(to top,#ff8e01 0,#ffca00 100%);box-shadow:0 0 25px 0 rgba(0,0,0,.25);border-radius:0 12px 0}
+    #navbarText{position:relative;top:82px;background-color:#ff9500;z-index:99}
+    .follow-us{margin-top:42px}
+    .top-banner{padding-top:200px;padding-bottom:140px}
+    .top-banner h6 br{display:none}
+    .award,.client,.home-pricing,.reason{padding-top:60px}
+    .award,.home-pricing,.space-ship-spacing{padding-bottom:60px}
+    .award-images{margin-top:40px}
+    .space-ship-spacing{padding-bottom:0}
+    .custom-center{text-align:center}
+    .map-container img{height:400px}
+    .print_design_pkg:before{display:none;}
+}
+@media screen and (max-width:767px){
+    .navbar-brand{width:30%!important;}
+    #mobile-testimonial-carousel .item{position:relative}
+    .testi-box{top:58%;width:80%;text-align:center;margin:0 auto;right:0;left:0}
+    .inner-banner-bg .row{text-align:center}
+    .map-container img{height:300px}
+    .typewriter-text span{display:none}
+    .client{background-size:cover;background-position:center center}
+    .logo-section{background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/logo-bg.jpg);background-position:center center;text-align:center;text-shadow:0 0 12px #000}
+    .branding-section{background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/branding-bg.jpg);background-position:inherit;text-align:center;text-shadow:0 0 12px #000}
+    .website-section{background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/website-bg.jpg);background-position:center;text-align:center;text-shadow:0 0 12px #000}
+    .video-section{background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/video-bg.jpg);background-position:center;text-align:center;text-shadow:0 0 12px #000}
+    .digital-section{background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/digital-bg.jpg);background-position:center;text-align:center;text-shadow:0 0 12px #000}
+    .content-section{background:linear-gradient(0deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/content-bg.jpg);background-position:center;text-align:center;text-shadow:0 0 12px #000}
+    .branding-section,.content-section,.digital-section,.logo-section,.video-section,.website-section{height:370px}
+    .branding-section h1,.content-section h1,.digital-section h1,.logo-section h1,.video-section h1,.website-section h1{margin-top:134px}
+    .footer-logo{text-align:center;margin-bottom:34px}
+    .footer-logo br{display:none}
+    .copyright{font-size:16px}
+    .top-banner{padding-bottom:90px;padding-top:190px}
+    .left-lower-banner svg{top:150px;right:241px}
+    .lower-banner{height:980px}
+    #pricing-tab a{max-width:48%}
+    .sm-txt{text-align:center}
+    .space{margin-bottom:40px}
+    .pricing-page #pricing-tab a{font-size:14px;max-width:47.5%;margin:0 auto!important;margin-top:0!important;margin-bottom:10px!important}
+    #pricing-tab a:last-child{margin-right:0;display:block;margin:0 auto;margin-top:14px}
+    .border-right-radius{margin-top:0;border-radius:0}
+    .border-left-radius{border-radius:0}
+    .lower-banner .arrow-down-green{bottom:-18px}
+    .lower-history h1{line-height:22px;margin-bottom:15px}
+    .custom-margin-contact{margin-top:40px;margin-bottom:0}
+    #pricing-tabs .pr-0{padding-left:0}
+    .cta_content p{display:none;}
+    .satisfaction_inner_box{margin-bottom:15px;}
+    .button-group.filter-button-group{margin-bottom:20px;}
+    .list_portfolio button{display:inline-flex;padding:5px 10px;width:auto;flex:0 0 25%;}
+    .slide_content h1{font-size:32px;line-height:38px;margin:20px 0;}
+}
+@media screen and (max-width:576px){
+    .impressive-left h1{font-size:26px;line-height:26px;}
+    .lower-banner h1{font-size:28px;line-height:28px;}
+    .professional{padding:40px 0;}
+    .cta_btn{padding:9px 12px;font-size:12px;}
+    .bta_content h1{font-size:28px;line-height:28px;}
+    .cta_content img{width:30px;}
+    .pricing-cta h1{font-size:26px;line-height:26px;}
+    .icon-bar a{font-size:14px;padding:10px;}
+    .lower-banner{background-image:url(../img/mobile-lower-banner.jpg)}
+    .award-images .col-6:nth-child(10){border-bottom:1px solid transparent}
+    .contact-banner h2 br{display:none}
+    .custom-margin-contact{margin-bottom:0!important}
+    .contact-form{margin-top:56px}
+    .pricing-cta h1 br{display:none}
+    #pricing-tab a{max-width:100%;font-size:14px;margin-right:0;margin-bottom:10px}
+    #pricing-tab a:last-child{margin-top:0}
+    .navbar-toggler{right:15px}
+    .navbar-brand{left:15px;width:38%!important;}
+    .top-banner h1{font-size:7vw}
+    .impressive{height:590px;background-image:url(../img/mobile-impressive-bg.jpg)}
+    .consultent-button .btn{margin:0 auto;display:inherit;margin-bottom:10px}
+    .view-all .btn{margin:0 auto;display:inherit}
+    .arrow-down-green{bottom:10px}
+    .contact-box{margin-bottom:35px;padding:0 10px;padding-top:20px}
+    .contact-box p{font-size:14px}
+    .contact-border-right{border-bottom:2px solid #fff}
+    .contact-box-color{margin:0}
+    .left-lower-banner svg{position:static;top:178px;right:0;left:0;text-align:center;margin:0 auto;margin-bottom:6px;margin-top:6px}
+    .lower-banner p{margin-bottom:0}
+    .cutom-padding-left-cta{padding-left:6px!important;padding-right:3px!important}
+    .cutom-padding-right-cta{padding-left:3px!important;padding-right:6px!important}
+    .branding-section h1,.content-section h1,.digital-section h1,.logo-section h1,.video-section h1,.website-section h1{font-size:52px;line-height:48px}
+    .branding-section,.content-section,.digital-section,.logo-section,.video-section,.website-section{height:300px}
+    .branding-section h1,.content-section h1,.digital-section h1,.logo-section h1,.video-section h1,.website-section h1{margin-top:112px}
+    .branding-section h1{margin-top:128px!important}
+    .pro-box{margin-bottom:10px}
+    .pro-box{margin-bottom:40px}
+    .no-pro-box-margin{margin-bottom:0}
+    .lower-history{margin-bottom:30px;text-align:center}
+    .typewriter-text span{display:none}
+    .about-banner{background-image:url(../img/mobile-about-bg.jpg)}
+    .pricing-banner{background-image:url(../img/mobile-pricing-bg.jpg)}
+    .service-banner{background-image:url(../img/mobile-service-bg.jpg)}
+    .portfolio-banner{background-image:url(../img/mobile-portfolio-bg.jpg)}
+    .contact-banner{background-image:url(../img/mobile-contact-bg.jpg)}
+    .website-banner{background-image:url(../img/mobile-website-design-bg.jpg)}
+    .order-banner{background-image:url(../img/mobile-order-bg.jpg)}
+    .logo-banner{background-image:url(../img/mobile-logo-bg.jpg)}
+    .nft-banner{background-image:url(../img/mobile-nft-bg.jpg);height:620px!important;}
+    .branding-banner{background-image:url(../img/mobile-branding-bg.jpg)}
+    .video-banner{background-image:url(../img/mobile-animation-bg.jpg)}
+    .seo-banner{background-image:url(../img/mobile-seo-bg.jpg)}
+    .logo-brief-banner{background-image:url(../img/mobile-logo-brief-bg.jpg)}
+    .payment-banner{background-image:url(../img/mobile-payment-bg.jpg)}
+    .mobileapp-banner{background-image:url(../img/mobile-mobileapp-bg.jpg)}
+    .print-banner{background-image:url(../img/mobile-print-bg.jpg)}
+    .contact-banner.inner-banner-bg{height:520px}
+    .about-banner h2,.portfolio-banner h2,.pricing-banner h2,.service-banner h2,.website-banner h2,.nft-banner h2{font-size:24px;line-height:30px;text-align:center}
+    .about-banner p,.portfolio-banner p,.pricing-banner p,.service-banner p,.website-banner p,.nft-banner p{font-size:14px;line-height:25px;margin-top:16px;text-align:center}
+    .inner-banner-bg{background-size:100%;background-repeat:repeat-y;height:570px;background-position:0 0}
+    .order-banner{height:520px}
+    .inner-banner-bg .row{bottom:50px}
+    .map-container img{height:200px}
+    .map-container p{width:100%;position:static;text-align:center}
+    #testimonial{display:none!important}
+    #mobile-testimonial{display:block!important}
+    .testi-box{top:54%;width:90%}
+    .testi-box p{font-size:14px;margin-bottom:6px}
+    .lower-banner{height:auto;padding-bottom:108px}
+    .impressive{height:auto;padding-top:70px}
+    .custom-impressive-box-mt-2{margin-top:26px}
+    .pricing-page #pricing-tab a{margin-right:1%;max-width:49%}
+    .pricing-page #pricing-tab a:nth-child(2){margin:auto;margin-right:0;margin-top:0}
+    .pricing-page #pricing-tab a:last-child{margin:auto;margin-right:0;margin-top:0}
+    #pricing-tab{margin-top:30px}
+    .home-pricing{background-image:url(../img/reasons-bg.jpg);margin-bottom:60px}
+    .lower-pricing-btn-group{padding-bottom:0}
+    .custom-no-pad{padding-right:0}
+    .service-pricing{padding-bottom:20px}
+    .stone-box{margin-bottom:10px}
+    .reason{padding-bottom:40px}
+    .no-padding-right{padding-right:0}
+    .no-padding-left{padding-left:0}
+    #progressbar h4{font-size:16px}
+    #progressbar li:before{width:50px;height:50px;line-height:50px}
+    .slide_content h1{font-size:26px;line-height:28px;margin:20px 0;}
+}
+
+
+@media screen and (max-width:480px){
+    
+.footerlogo img {
+    width: 45%;
+}  
+
+.hover-box-logo img {
+    margin: 0 auto 10px;
+     width: 21%;
+}
+    
+}
+
+
+

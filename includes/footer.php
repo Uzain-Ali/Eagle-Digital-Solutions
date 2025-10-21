@@ -49,15 +49,18 @@
                     <h2>Follow us now <br>and get in touch</h2>
                     <ul class="social">
                         <li class="facebook"><a href="https://www.facebook.com/profile.php?id=61568432350093"><i class="fab fa-facebook-square"></i></a></li>
-                        <!-- <li class="instagram"><a href="https://www.instagram.com/eagledigitalsolution/"><i class="fab fa-instagram-square"></i></a></li> -->
+                        <li class="instagram"><a href="https://www.instagram.com/eagledigitalsolution/"><i class="fab fa-instagram-square"></i></a></li>
+                        <li class="linkedin"><a href="https://www.linkedin.com/company/eagle-digital-solutions-llc/"><i class="fab fa-linkedin-square fa-lg"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
     <div class="icon-bar">
-      <a href="tel:+1 332 288-4388" class="phone"><i class="fas fa-phone-volume faa-wrench animated fa-2x"></i></a>
-      <a href="contact.php" class="live_chatt"><i class="far fa-comment-alt-smile faa-ring animated fa-2x"></i></a> 
+    <a href="tel:+1 332 288-4388" class="phone"><i class="fas fa-phone-volume faa-wrench animated fa-2x"></i></a>
+    <a href="https://wa.me/13322884388?text=Hi,%20I%20want%20to%20avail%20your%20services" target="_blank" class="live_chatt">
+            <i class="far fa-comment-alt-smile faa-ring animated fa-2x"></i>
+        </a> 
     </div>
 
     <script src="cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

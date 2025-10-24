@@ -3239,4 +3239,88 @@ img.img-responsive.in-block {
 }
 
 
-/*policy*/
+/* Ensure the body takes full screen and uses the custom font */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --- 1. Full-Screen Overlay with YOUR NEW BRANDED BACKGROUND --- */
+#eagle-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Applying your Starry Background Image */
+    background-image: url('../img/reasons-bg.jpg'); /* IMPORTANT: Use your BG image file name */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0d0c22; /* Fallback color matching the dark theme */
+    
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the entire preloader content (Logo + Bar) */
+    align-items: center; /* Horizontally centers the entire preloader content */
+    
+    /* CSS for Fade-out Effect */
+    transition: opacity 0.7s ease-out, visibility 0s 0.7s;
+}
+
+/* --- 2. Logo Styling and Placement --- */
+.logo-wrapper {
+    margin-bottom: 40px; /* Space between logo and progress bar */
+    
+    /* Adding a subtle glow/shadow to make the logo look attractive on the dark BG */
+    filter: drop-shadow(0 0 10px rgba(106, 90, 205, 0.5));
+}
+
+.preloader-logo {
+    width: 500px; /* Set a medium, consistent size for the logo */
+    height: auto;
+}
+
+
+/* --- 3. Progress Bar Styling --- */
+.progress-bar-container {
+    width: 300px; /* Width of the entire track */
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light transparent track */
+    border-radius: 4px;
+    /* Adjust margin to place it nicely below the logo */
+    margin-top: 10px; 
+    overflow: hidden;
+    /* Stronger glow/shadow matching the theme */
+    box-shadow: 0 0 8px rgba(106, 90, 205, 0.7); 
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    /* Purple/Blue Gradient for the filling bar */
+    background: linear-gradient(90deg, #6a5acd, #9370db); 
+    border-radius: 4px;
+    
+    /* Animation to fill the bar completely */
+    animation: fill-progress 2s forwards; 
+}
+
+/* Progress Bar Filling Animation */
+@keyframes fill-progress {
+    to {
+        width: 100%;
+    }
+}
+
+/* --- 4. Branded Text --- */
+.loading-text {
+    margin-top: 20px; /* Space below the progress bar */
+    color: #FFFFFF;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    /* Glow effect for the text */
+    text-shadow: 0 0 5px rgba(147, 112, 219, 0.8); 
+}

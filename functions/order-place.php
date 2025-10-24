@@ -42,15 +42,15 @@ $mail = new PHPMailer(true);
 try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host       = 'server348.web-hosting.com';
+    $mail->Host       = 'eagledigitalsolutions.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'info@eagledigitalsolutions.com';
-    $mail->Password   = '@z41q7#%vBPZ';
+    $mail->Password   = 'incorrect$321';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('info@eagledigitalsolutions.com', 'WeTech Developers');
-    $mail->addAddress($email, $full_name);
+    $mail->setFrom('info@eagledigitalsolutions.com', 'Eagle Digital Solutions');
+    $mail->addAddress($email, $user_name);
 
     $mail->isHTML(true);
     $mail->Subject = 'Unlocking Success: Your Project Journey Begins Now!';
@@ -75,15 +75,15 @@ $mailToAdditional = new PHPMailer(true);
 try {
     $mailToAdditional->SMTPDebug = SMTP::DEBUG_SERVER;
     $mailToAdditional->isSMTP();
-    $mailToAdditional->Host       = 'server348.web-hosting.com';
+    $mailToAdditional->Host       = 'eagledigitalsolutions.com';
     $mailToAdditional->SMTPAuth   = true;
     $mailToAdditional->Username   = 'info@eagledigitalsolutions.com';
-    $mailToAdditional->Password   = '@z41q7#%vBPZ';
+    $mailToAdditional->Password   = 'incorrect$321';
     $mailToAdditional->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mailToAdditional->Port       = 465;
 
-    $mailToAdditional->setFrom('info@eagledigitalsolutions.com', 'WeTech Developers');
-    $mailToAdditional->addAddress('rafayfriends124@gmail.com');
+    $mailToAdditional->setFrom('info@eagledigitalsolutions.com', 'Eagle Digital Solutions');
+    $mailToAdditional->addAddress('info@eagledigitalsolutions.com', 'Eagle Digital Solutions');
 
     $mailToAdditional->isHTML(true);
     $mailToAdditional->Subject = 'New Order Has Been Placed!';

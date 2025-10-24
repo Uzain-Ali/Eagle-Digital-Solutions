@@ -55,6 +55,7 @@ src="https://www.facebook.com/tr?id=3276474729313900&ev=PageView&noscript=1"
 </style>
 
 <body class="index-body">
+    <?php include 'preloader.php'; ?>
   <?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>
     <header class="wow fadeIn">
         <div class="container">
@@ -139,3 +140,28 @@ src="https://www.facebook.com/tr?id=3276474729313900&ev=PageView&noscript=1"
             </nav>
         </div>
     </header>
+<script>
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('eagle-preloader');
+            const content = document.getElementById('content');
+            
+            // Define the duration for the animation and fade-out
+            const progressBarAnimationDuration = 2000; // 2 seconds (matches CSS animation)
+            const preloaderFadeOutDuration = 700;    // 0.7 seconds (matches CSS transition)
+
+            // Start fading out the preloader after the progress bar animation completes
+            setTimeout(function() {
+                // Step 1: Start the fade-out transition
+                preloader.style.opacity = '0'; 
+                
+                // Step 2: After the fade-out transition, completely hide the element
+                setTimeout(function() {
+                    preloader.style.visibility = 'hidden'; 
+                    preloader.style.display = 'none';
+                    content.style.display = 'block'; // Show your main website content
+                    document.body.style.overflow = 'auto'; // <<< ADD THIS LINE
+                }, preloaderFadeOutDuration);
+                
+            }, progressBarAnimationDuration); 
+        });
+    </script>

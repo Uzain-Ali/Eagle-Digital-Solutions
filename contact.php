@@ -102,6 +102,9 @@ include 'includes/header.php' ?>
                                        onkeyup="javascript: this.value = this.value.replace(/[^0-9]/g,'');"
                                        class="form-control" data-validation="required">
                             </div>
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="6LdvGfYrAAAAAIHlOFKiwaxqFFn31VdjeE-3SAIz" data-callback="enableSubmitButton"></div>
+                            </div>
                         </div>
                         <div class="col-md-6 col-lg-5 offset-lg-0 offset-xl-0 col-xl-4 wow fadeInRight">
                             <div class="form-group">
@@ -110,14 +113,20 @@ include 'includes/header.php' ?>
                                       name="description" data-validation="required"></textarea>
                             </div>
                         </div>
+                        
                         <div class="offset-md-1 col-md-10 col-lg-6 offset-xl-2 btn-center wow fadeInRight">
                             <div id="formResult"></div>
-                            <button class="btn btn-theme btn-white-border" type="submit">Submit your request <i class="far fa-caret-right"></i></button>
+                            <button id="mySubmitBtn" disabled="disabled" class="btn btn-theme btn-white-border" type="submit">Submit your request <i class="far fa-caret-right"></i></button>
                         </div>
                     </div>
                 </form>
                 <script>
   document.getElementById('prevent').setAttribute('action', 'functions/send.php');
+</script>
+<script>
+    function enableSubmitButton() {
+        document.getElementById('mySubmitBtn').disabled = false;
+    }
 </script>
             </div>
         </section>

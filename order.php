@@ -382,6 +382,9 @@ $us_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorad
                                     <input type="text" data-validation="required" name="email" placeholder=""
                                            id="txtEmailAddress">
                                 </li>
+                                <li class="mt-5">
+                                                                            <div class="g-recaptcha" data-sitekey="6LdvGfYrAAAAAIHlOFKiwaxqFFn31VdjeE-3SAIz" data-callback="enableSubmitButton"></div>
+                                </li>
                                 <hr>
                                 <!-- <img class="img-responsive in-block" src="img/visa.png"
                                      style="text-align: center;margin: 0 auto;">
@@ -438,7 +441,7 @@ $us_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorad
                         <div class="form-sec">
                             <ul>
                                 <li class="submit-btn">
-                                    <button type="submit" class="btn btn-red a-btn" id="orderFormBtn"
+                                    <button  disabled="disabled" type="submit" class="btn btn-red a-btn" id="orderFormBtn"
                                             value="1" name="paypal_payment">Submit
                                     </button>
 
@@ -509,5 +512,9 @@ $us_states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorad
             }
         });
     </script>
-
+<script>
+    function enableSubmitButton() {
+        document.getElementById('orderFormBtn').disabled = false;
+    }
+</script>
 <?php include 'includes/footer.php' ?>

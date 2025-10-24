@@ -40,6 +40,7 @@ src="https://www.facebook.com/tr?id=3276474729313900&ev=PageView&noscript=1"
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 

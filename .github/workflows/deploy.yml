@@ -24,9 +24,4 @@ jobs:
           local_path: ./
           remote_path: ${{ secrets.FTP_PATH }}/
           sftp_only: true
-          exclude: |
-            */another_project/*
-            */.git/**
-            */.github/**
-            */node_modules/*
-            */.vscode/*
+          delete_remote_files: false

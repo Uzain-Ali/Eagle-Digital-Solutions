@@ -1,0 +1,31 @@
+name: 🚀 Deploy Eagle Digital Solutions via FTP
+
+on:
+  push:
+    branches:
+      - main   # change to 'master' if that's your default branch
+
+jobs:
+  ftp-deploy:
+    name: Upload website to Namecheap hosting
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧩 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 📂 Deploy PHP site to Namecheap via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          server-dir: ${{ secrets.FTP_PATH }}
+          local-dir: .                     # ✅ keep this as '.' for core PHP
+          exclude: |
+            */teklumina/*          # don't touch your other project folder
+            */.git/**
+            */.github/**
+            */node_modules/*
+            */.vscode/*
